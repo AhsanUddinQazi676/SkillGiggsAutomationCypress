@@ -1,7 +1,6 @@
 {
   "name": "automation",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run",
@@ -19,7 +18,7 @@
   "author": "RahulShetty",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.17.3",
+    "cypress": "^12.17.4",
     "cypress-sql-server": "^1.0.0",
     "mocha": "^10.1.0",
     "multiple-cucumber-html-reporter": "^3.0.1",
@@ -30,5 +29,7 @@
     "@cypress/browserify-preprocessor": "latest",
     "convert-excel-to-json": "^1.7.0",
     "cypress-iframe": "^1.0.1"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
